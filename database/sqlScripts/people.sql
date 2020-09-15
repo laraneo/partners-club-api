@@ -1,0 +1,2 @@
+ALTER TABLE people ADD name2 VARCHAR (255) NULL;
+ALTER TABLE people ADD last_name2 VARCHAR (255) NULL;

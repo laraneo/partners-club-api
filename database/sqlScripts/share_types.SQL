@@ -1,0 +1,1 @@
+ALTER TABLE share_types ADD access INT NULL;

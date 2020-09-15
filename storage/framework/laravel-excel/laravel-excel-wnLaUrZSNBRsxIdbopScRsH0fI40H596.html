@@ -1,0 +1,375 @@
+<html>
+    <head>
+        <style>
+            /** Define the margins of your page **/
+            @page  {
+                margin: 100px 25px;
+            }
+            header {
+                position: fixed;
+                top: -60px;
+                left: 0px;
+                right: 0px;
+                height: 40px;
+
+                /** Extra personal styles **/
+                border: 1px solid black;
+                border-top: 0px;
+                border-left: 0px;
+                border-right: 0px;
+                border-bottom: 1px solid black;
+                text-align: left;
+                line-height: 35px;
+            }
+
+            footer {
+                position: fixed; 
+                bottom: -60px; 
+                left: 0px; 
+                right: 0px;
+                height: 30px; 
+
+                text-align: center;
+                line-height: 35px;
+            }
+            .page-number:before {
+                content: "Pagina " counter(page);
+            }
+            thead th{
+                font-size: 8px;
+                border-bottom: 1px black solid;
+                padding-bottom: 5px;
+                text-align: left;
+            }
+            tbody td{
+                font-size: 8px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .share-movement {
+                font-style: italic;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-decoration: underline;
+            }
+        }
+
+        </style>
+    </head>
+    <body>
+            <table width="100%" cellspacing="0" page-break-inside: auto>
+                <thead>
+                    <tr>
+                        <th>Accion</th>
+                        <th>Accion Padre</th>
+                        <th>Status</th>
+                        <th>Forma de Pago</th>
+                        <th>Tipo</th>
+                        <th>Socio</th>
+                        <th>Titular</th>
+                        <th>Facturador</th>
+                        <th>Fiador</th>
+                   </tr>
+               <thead>
+                <tbody>
+                                    <tr>
+                        <td>120610</td> 
+                        <td>
+                                                        Principal
+                             
+                        </td>
+                        <td>Inactivo</td>
+                        <td>Deposito en cuenta</td>  
+                        <td>Propietario</td>
+                        <td>Jorge Gomez</td>
+                        <td>Ernesto Villas</td>
+                        <td>Miguel Perez</td>
+                        <td>German Vera</td>
+                    </tr> 
+                                            <tr>
+                            <td colspan="9" align="center">
+                                Movimientos de Accion N° 120610</div>
+                                <table width="100%" cellspacing="0" border="1">
+                                    <thead>
+                                        <tr>
+                                            <th>Fecha</th>
+                                            <th>Tipo</th>
+                                            <th>Descripcion</th>
+                                            <th>Moneda</th>
+                                            <th>Tarifa</th>
+                                            <th>Moneda</th>
+                                            <th>Precio Venta</th>
+                                            <th>Socio</th>
+                                            <th>Titular</th>
+                                            <th>Procesado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr>
+                                                <td></td>
+                                                <td>Revocar Baja</td>
+                                                <td>Removiendo accion de baja B-0001 y activando accion 120610 por 1  Admin Test </td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>NO</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>2020-08-04</td>
+                                                <td>Revocar Baja</td>
+                                                <td>Removiendo accion de baja B-0002 y activando accion 120610 por 1  Admin Test </td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>NO</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>2020-08-05</td>
+                                                <td>Revocar Baja</td>
+                                                <td>Removiendo accion de baja B-0003 y activando accion 120610 por 1  Admin Test </td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>NO</td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            <td>
+                        </tr>
+                                                        <tr>
+                        <td>120611</td> 
+                        <td>
+                                                        120610
+                             
+                        </td>
+                        <td>Inactivo</td>
+                        <td>Cargo Automatico (Mensual)</td>  
+                        <td>Propietario</td>
+                        <td>Jorge Gomez</td>
+                        <td>Ernesto Villas</td>
+                        <td>Miguel Perez</td>
+                        <td>German Vera</td>
+                    </tr> 
+                                                        <tr>
+                        <td>120612</td> 
+                        <td>
+                                                        120610
+                             
+                        </td>
+                        <td>Inactivo</td>
+                        <td>Deposito en cuenta</td>  
+                        <td>Propietario</td>
+                        <td>Oswaldo Teran</td>
+                        <td>Ernesto Villas</td>
+                        <td>Miguel Perez</td>
+                        <td>German Vera</td>
+                    </tr> 
+                                                        <tr>
+                        <td>B-0001</td> 
+                        <td>
+                                                        120610
+                             
+                        </td>
+                        <td>Inactivo</td>
+                        <td></td>  
+                        <td>Accion de Baja</td>
+                        <td>Jorge Gomez</td>
+                        <td>Jorge Gomez</td>
+                        <td> </td>
+                        <td> </td>
+                    </tr> 
+                                            <tr>
+                            <td colspan="9" align="center">
+                                Movimientos de Accion N° B-0001</div>
+                                <table width="100%" cellspacing="0" border="1">
+                                    <thead>
+                                        <tr>
+                                            <th>Fecha</th>
+                                            <th>Tipo</th>
+                                            <th>Descripcion</th>
+                                            <th>Moneda</th>
+                                            <th>Tarifa</th>
+                                            <th>Moneda</th>
+                                            <th>Precio Venta</th>
+                                            <th>Socio</th>
+                                            <th>Titular</th>
+                                            <th>Procesado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr>
+                                                <td>2020-08-04</td>
+                                                <td>Dar de Baja</td>
+                                                <td>Dar de baja accion 120610 y asignando accion de baja B-0001 por 1  Admin Test </td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>NO</td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            <td>
+                        </tr>
+                                                        <tr>
+                        <td>B-0002</td> 
+                        <td>
+                                                        120610
+                             
+                        </td>
+                        <td>Inactivo</td>
+                        <td></td>  
+                        <td>Accion de Baja</td>
+                        <td>Jorge Gomez</td>
+                        <td>Jorge Gomez</td>
+                        <td> </td>
+                        <td> </td>
+                    </tr> 
+                                            <tr>
+                            <td colspan="9" align="center">
+                                Movimientos de Accion N° B-0002</div>
+                                <table width="100%" cellspacing="0" border="1">
+                                    <thead>
+                                        <tr>
+                                            <th>Fecha</th>
+                                            <th>Tipo</th>
+                                            <th>Descripcion</th>
+                                            <th>Moneda</th>
+                                            <th>Tarifa</th>
+                                            <th>Moneda</th>
+                                            <th>Precio Venta</th>
+                                            <th>Socio</th>
+                                            <th>Titular</th>
+                                            <th>Procesado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr>
+                                                <td>2020-08-04</td>
+                                                <td>Dar de Baja</td>
+                                                <td>Dar de baja accion 120610 y asignando accion de baja B-0002 por 1  Admin Test </td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>NO</td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            <td>
+                        </tr>
+                                                        <tr>
+                        <td>B-0003</td> 
+                        <td>
+                                                        120610
+                             
+                        </td>
+                        <td>Inactivo</td>
+                        <td></td>  
+                        <td>Accion de Baja</td>
+                        <td>Jorge Gomez</td>
+                        <td>Jorge Gomez</td>
+                        <td> </td>
+                        <td> </td>
+                    </tr> 
+                                            <tr>
+                            <td colspan="9" align="center">
+                                Movimientos de Accion N° B-0003</div>
+                                <table width="100%" cellspacing="0" border="1">
+                                    <thead>
+                                        <tr>
+                                            <th>Fecha</th>
+                                            <th>Tipo</th>
+                                            <th>Descripcion</th>
+                                            <th>Moneda</th>
+                                            <th>Tarifa</th>
+                                            <th>Moneda</th>
+                                            <th>Precio Venta</th>
+                                            <th>Socio</th>
+                                            <th>Titular</th>
+                                            <th>Procesado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr>
+                                                <td>2020-08-04</td>
+                                                <td>Dar de Baja</td>
+                                                <td>Dar de baja accion 120610 y asignando accion de baja B-0003 por 1  Admin Test </td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>NO</td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            <td>
+                        </tr>
+                                                        <tr>
+                        <td>B-0004</td> 
+                        <td>
+                                                        120611
+                             
+                        </td>
+                        <td>Inactivo</td>
+                        <td></td>  
+                        <td>Accion de Baja</td>
+                        <td>Jorge Gomez</td>
+                        <td>Jorge Gomez</td>
+                        <td> </td>
+                        <td> </td>
+                    </tr> 
+                                            <tr>
+                            <td colspan="9" align="center">
+                                Movimientos de Accion N° B-0004</div>
+                                <table width="100%" cellspacing="0" border="1">
+                                    <thead>
+                                        <tr>
+                                            <th>Fecha</th>
+                                            <th>Tipo</th>
+                                            <th>Descripcion</th>
+                                            <th>Moneda</th>
+                                            <th>Tarifa</th>
+                                            <th>Moneda</th>
+                                            <th>Precio Venta</th>
+                                            <th>Socio</th>
+                                            <th>Titular</th>
+                                            <th>Procesado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr>
+                                                <td>2020-08-04</td>
+                                                <td>Dar de Baja</td>
+                                                <td>Dar de baja accion 120611 y asignando accion de baja B-0004 por 1  Admin Test </td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Dolar</td>
+                                                <td>0</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>Jorge Gomez</td>
+                                                <td>NO</td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            <td>
+                        </tr>
+                                                     <tbody>
+            </table>
+    </body>
+</html>
